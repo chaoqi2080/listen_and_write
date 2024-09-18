@@ -1,7 +1,5 @@
 
-*{
-    background-color:lightgray;
-}
+
 
 .center-container {
     display: grid;
@@ -12,26 +10,16 @@
     padding-right: 200px;
 }
 
-.source-code-pro-normal {
-  font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.audio_item{
-    nav-down: disable;
-}
-  
-
 body {
     font-family:'Courier New', Courier, monospace;
-    font-size: 21px;
+    font-size: 24px;
     text-align: left;
 }
 
 p{
     line-height:1.2;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 
