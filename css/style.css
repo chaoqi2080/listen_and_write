@@ -1,26 +1,36 @@
 
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #004373; 
+    text-align: left;
+}
 
+p{
+    line-height:1.1;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
 .center-container {
     display: grid;
     place-items: center;  /* 同时水平和垂直居中 */
     height: 100vh;        /* 使容器高度为视口高度 */
-    padding: 5px;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
-body {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 24px;
-    text-align: left;
-}
-
-p{
-    line-height:1.2;
+.content_lst{
     margin-left: 25%;
     margin-right: 25%;
+    height: 100%;
 }
+
+.content_lst ol li {
+    list-style: none;
+    margin: 0 auto;
+}
+
+
+
 
 
 
